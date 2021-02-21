@@ -1,0 +1,38 @@
+! 2020-12-23 https://www.huya.com
+www.huya.com##.player-gift-wrap
+
+! 2020-12-23 https://item.jd.com
+item.jd.com###promo_box
+
+! 2020-12-24 https://www.douyu.com
+www.douyu.com##.player-dialog
+
+! 2020-12-25 http://play.sportsteam768.com
+play.sportsteam768.com##.only-app.loc_banner
+
+! 2020-12-25 https://bbs.hupu.com
+bbs.hupu.com##.swiper-container-horizontal.swiper-container-initialized.swiper-container
+bbs.hupu.com##.download-app
+bbs.hupu.com##.game-center-sidebar
+
+! 2021-01-03 https://www.douyu.com
+www.douyu.com###js-room-activity
+www.douyu.com##.PlayerToolbar
+www.douyu.com##.Bottom
+www.douyu.com##.ChatTabContainer
+
+! 2021-01-05 https://bbs.hupu.com
+bbs.hupu.com##.post-operate-bar-share
+
+! 2021-01-15 https://live-nba.stream
+live-nba.stream###secondary-widget > .hidden-md-down
+
+! 2021-01-31 https://item.jd.com
+item.jd.com##.gwd-minibar-element
+
+! 2021-01-31 https://www.chiphell.com
+www.chiphell.com##.bdshare-slide-button
+
+! 2021-02-20 https://bbs.pcbeta.com
+||www.pcbeta.com//data/cache/ggk.js$script,domain=bbs.pcbeta.com
+
