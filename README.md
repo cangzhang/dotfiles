@@ -6,3 +6,4 @@
 - TranslucentTB
 - Snipaste
 - Easy window switcher
+- Notepad3
