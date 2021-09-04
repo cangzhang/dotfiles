@@ -4,3 +4,4 @@
 - Ditto
 - Startup Delayer
 - TranslucentTB
+- Snipaste
