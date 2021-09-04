@@ -5,3 +5,4 @@
 - Startup Delayer
 - TranslucentTB
 - Snipaste
+- Easy window switcher
