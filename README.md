@@ -8,6 +8,7 @@
 - Snipaste
 - Easy window switcher
 - Notepad3
+- [coodesker](https://coodesker.gitee.io/)
 
 ### Windowns terminal profile
 
