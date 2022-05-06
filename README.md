@@ -9,6 +9,7 @@
 - Easy window switcher
 - Notepad3
 - [coodesker](https://coodesker.gitee.io/)
+- [Browser Selector](https://github.com/DanTup/BrowserSelector)
 
 ### Windowns terminal profile
 
