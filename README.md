@@ -2,6 +2,7 @@
 
 ## Windows
 
+### Tools
 - Ditto
 - Startup Delayer
 - TranslucentTB
@@ -24,4 +25,6 @@ exit /B !ERRORLEVEL!
 
 ## Mac
 
+### Tools
 - [finicky](https://github.com/johnste/finicky)
+- [Hammerspoon](https://github.com/Hammerspoon/hammerspoon)
