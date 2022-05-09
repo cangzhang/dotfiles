@@ -22,3 +22,6 @@ wt -d .
 exit /B !ERRORLEVEL!
 ```
 
+## Mac
+
+- [finicky](https://github.com/johnste/finicky)
