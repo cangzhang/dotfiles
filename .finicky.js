@@ -6,13 +6,17 @@ const workProfile = {
   profile: "Profile 1",
 };
 
-const defaultProfile = {
+const primaryProfile = {
   name: "Google Chrome",
-  profile: "Default",
-}
+  profile: "Profile 3",
+};
+
+const edge = {
+  name: "Microsoft Edge",
+};
 
 module.exports = {
-  defaultBrowser: defaultProfile,
+  defaultBrowser: primaryProfile,
   handlers: [
     {
       match: /coding\.net/,
@@ -29,6 +33,18 @@ module.exports = {
     {
       match: /oa\.com/,
       browser: workProfile,
+    },
+    {
+      match: /exmail\.qq\.com/,
+      browser: workProfile,
+    },
+    {
+      match: /figma\.com/,
+      browser: workProfile,
+    },
+    {
+      match: /xiaohongshu\.com/,
+      browser: edge,
     },
   ],
 };
