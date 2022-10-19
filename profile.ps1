@@ -1,22 +1,16 @@
+# @args you can pass multi arguments for example
+# ga fileName1 fileName2 
+function ga{git add @args}
+function gcmsg { git commit -m @args }
+function gac{git add .;git commit -m @args}
+function gpm{git push origin master}
+function gl{git pull}
+function gco{git checkout @args}
+function gst{git status @args}
+function gp{git push @args}
+
 Invoke-Expression (&starship init powershell)
 
-# fnm env --use-on-cd | Out-String | Invoke-Expression
-Import-Module git-aliases -DisableNameChecking
+Invoke-Expression (& { $hook = if ($PSVersionTable.PSVersion.Major -ge 6) { 'pwd' } else { 'prompt' } (zoxide init powershell --hook $hook | Out-String) })
 
-Invoke-Expression (& {
-    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
-    (zoxide init --hook $hook powershell) -join "`n"
-  })
-
-
-# Chocolatey profile
-$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-if (Test-Path($ChocolateyProfile)) {
-  Import-Module "$ChocolateyProfile"
-}
-
-
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-Import-Module PSReadLine
-
-$env:LC_ALL = 'C.UTF-8'
+oh-my-posh init pwsh --config 'C:\Users\al\.config\omp\config.toml' | Invoke-Expression
