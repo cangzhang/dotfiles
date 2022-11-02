@@ -7,7 +7,7 @@ function gpm{git push origin master}
 function gl{git pull}
 function gco{git checkout @args}
 function gst{git status @args}
-function gp{git push @args}
+function gpp{git push @args}
 
 Invoke-Expression (&starship init powershell)
 
