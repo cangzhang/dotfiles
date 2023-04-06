@@ -1,0 +1,16 @@
+patch:
+  "app_options/code.exe":
+    ascii_mode: true
+  "app_options/powertoys.exe":
+    ascii_mode: true
+  "app_options/wezterm-gui.exe":
+    ascii_mode: true
+  "app_options/windowsterminal.exe":
+    ascii_mode: true
+  "app_options/chrome.exe":
+    ascii_mode: true
+  "style/color_scheme": luna
+  "style/horizontal": true
+  "style/font_face": "LXGW WenKai"
+  style/layout/candidate_spacing: 20
+  # style/layout/spacing: 20
