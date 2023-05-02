@@ -1,0 +1,5 @@
+patch:
+  menu/page_size: 8
+  style/font_face: 'LXGW WenKai'
+  style/color_scheme: 'native'
+  style/horizontal: true
