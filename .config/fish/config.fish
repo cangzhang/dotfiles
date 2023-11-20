@@ -9,3 +9,5 @@ function __switch_gh_profile --on-variable PWD --description 'switch gh profile 
     gh profile switch al
   end
 end
+
+alias hub="GITHUB_TOKEN=xxxx /opt/homebrew/bin/hub"
